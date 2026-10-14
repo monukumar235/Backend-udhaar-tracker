@@ -1,0 +1,12 @@
+package com.udhaartracker.emun;
+
+public enum ErrorCode {
+    VALIDATION_ERROR,
+    USER_ALREADY_EXISTS,
+    USER_NOT_FOUND,
+    INVALID_CREDENTIALS,
+    STATE_NOT_FOUND,
+    INTERNAL_SERVER_ERROR,
+    UNAUTHORIZED,
+    RESOURCE_NOT_FOUND,
+}

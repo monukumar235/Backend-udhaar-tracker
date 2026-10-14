@@ -1,0 +1,17 @@
+package com.udhaartracker.exception;
+
+import com.udhaartracker.emun.ErrorCode;
+
+public class AuthenticationException extends RuntimeException{
+
+    private final ErrorCode errorCode;
+
+    public AuthenticationException(String message, ErrorCode errorCode) {
+        super(message);
+        this.errorCode = errorCode;
+    }
+
+    public ErrorCode getErrorCode() {
+        return errorCode;
+    }
+}
